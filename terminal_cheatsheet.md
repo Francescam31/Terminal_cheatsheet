@@ -1,28 +1,24 @@
 # Terminal Cheatsheet
 
-
-
 ### `pwd`
 - print working directory
 
 ---
-## listing files
+### Listing Files
 
 ### `ls`
 - lists all files and folders in the current directory
 
-### `-l flag (ls -l)`
-- added **flag**
-- gets extra information on the files in the directory including modification date and file size
+### `-l (ls -l)`
+- lists extra information on the files in the directory including modification date and file size
 
-### `-al flag (ls -a)`
-- to view the hidden files 
-- prefixed with a .
+### `-a (ls -a)`
+- lists hidden files 
 
 ---
-## changing directory 
+### Changing Directory 
 
-### `cd folder/`
+### `cd folder`
 - change directory
 
 ### `cd`
@@ -32,33 +28,43 @@
 - previous working directory
 
 ---
-## creating new files and folders
+### Creating New files/directories
 
 ### `mkdir folder_name`
-- make directory
-- followed by 
+- Create new directory
 
 ### `touch file_name.(file extension)`
 - creates a new file in the current directory 
 - touch folder/file_name.() to create file in child directory
 
-### `mv` 
-- moves a file to move a file to a different directory
+### `mv file new_filename` 
+- Rename file
+
+### `mv file_name folder`
+- moves a file to to a different directory
+
 ---
+### Removing files/directories
+
+### `rm`
+- Removes directory (empty)
+
+### `rm -r`
+- Removes directory and contents
+
+### `rm -f`
+- 'Force' removes protected files
+
+---
+### Misc.
 
 ### `open .` 
 - opens finder in current directory
 
-### `rm`
+### CTRL + L
+- Clears the screen
 
-### `rm -r`
-- recursive , removes everything in folder
+---
+## Git
 
 
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
