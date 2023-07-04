@@ -44,6 +44,16 @@
 - moves a file to to a different directory
 
 ---
+### Opening files
+
+### `open file.txt`
+- opens the file in text editor
+- opening a directory will open Finder
+
+### `code file`
+- opens VSCode
+
+---
 ### Removing files/directories
 
 ### `rm`
@@ -57,9 +67,6 @@
 
 ---
 ### Misc.
-
-### `open .` 
-- opens finder in current directory
 
 ### CTRL + L
 - Clears the screen
