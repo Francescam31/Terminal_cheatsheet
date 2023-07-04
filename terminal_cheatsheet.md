@@ -72,5 +72,29 @@
 - check .git has been created by using the `ls -a` command
 
 ### `git status`
-- 
+- provides an update on which files have been modified
+
+### `git add (file or .)`
+- commands git to track the file or everything in the directory
+
+### `git commit -m "description"`
+- Commits changes made to the tracked files 
+- requires a description of the change made
+
+### `git log`
+- Shows the history of chanages made in the repository 
+- 'q' to exit
+
+### `git remote add origin (link)`
+- `git remote` links the local repository to Github
+- `add` indicates creation of a new link
+- `origin` is the conventional name for the primary remote
+
+### `git push origin main`
+- `git push` uploads from the local repository to Github
+
+### `git pull origin main`
+- downloads changes made by another user
+
+
 
