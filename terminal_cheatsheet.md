@@ -89,7 +89,7 @@
 - requires a description of the change made
 
 ### `git log`
-- Shows the history of chanages made in the repository 
+- Shows the history of changes made in the repository 
 - 'q' to exit
 
 ### `git remote add origin (link)`
