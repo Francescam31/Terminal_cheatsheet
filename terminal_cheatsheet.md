@@ -67,4 +67,10 @@
 ---
 ## Git
 
+### `git init`
+- initiates a git repository for the current directory
+- check .git has been created by using the `ls -a` command
+
+### `git status`
+- 
 
